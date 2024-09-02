@@ -1,0 +1,339 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navbar > .navlink {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+.home-section {
+  background: url("Rectangle\ 7.png"),
+    url("Rectangle\ 7.png");
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+.home-section > .subtitle1 {
+  font-size: 20px;
+  margin: 0;
+  font-family: "Vollkorn", serif;
+  font-optical-sizing: auto;
+}
+.home-section > .title {
+  font-size: 55px;
+  font-family: "Merienda", Regular;
+  font-optical-sizing: auto;
+}
+.home-section > .subtitle2 {
+  font-size: 40px;
+  font-family: "Vollkorn", serif;
+  font-optical-sizing: auto;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.home-section > .home-para {
+  font-size: 16px;
+  font-family: "Vollkorn", serif;
+  font-optical-sizing: auto;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 400;
+}
+.home-section > .Explore-button {
+  font-size: 18px;
+  font-family: "Vollkorn", serif;
+  font-optical-sizing: auto;
+  width: 204px;
+  height: 75px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.home-section > .Explore-button > .b1 {
+  background: linear-gradient(to right, #00aa9e, #004d47);
+  color: white;
+  top: 886px;
+  left: 858px;
+  width: 204px;
+  height: 75px;
+}
+.home-section > .bottom-image {
+  background: url("Group\ 11.svg");
+  position: relative;
+  height: 25vh;
+  bottom: -100px;
+}
+
+/**/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  position: relative;
+}
+
+.image-section {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.image-frame {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #00a1a1;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.image-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.path-image-container {
+  position: relative;
+  width: 150px; /* Size of the path image container */
+  height: 150px; /* Adjust height to match width or as needed */
+  margin-bottom: 150px; /* Space between containers */
+}
+
+.path-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+  position: relative;
+  right: -50px;
+}
+
+.rec-image {
+  position: absolute;
+  width: 90%; /* Smaller size relative to the path image */
+  height: 90%; /* Keep aspect ratio consistent */
+  bottom: -220px; /* Position towards the bottom of the path image */
+  right: 70px; /* Position towards the right of the path image */
+  left: 40px;
+  object-fit: cover;
+  z-index: 2;
+  border: 2px solid #fff; /* Optional: add a border for contrast */
+}
+
+
+/* .center-image {
+  position: absolute;
+    z-index: 2;
+    width: 500px;
+    left: 150%; /* Aligns the image horizontally center 
+    right: 250%;
+    bottom: -100%;
+    transform: translateX(-50%); 
+} */
+.path-image-container2 {
+  position: relative;
+  display: inline-block;
+  margin-left: -80px; /* Pushes the container to the right in a flex container */
+    margin-right: 50px; 
+    margin-bottom: -100px;
+   
+}
+
+.path-image-container2 img {
+  display: block;
+  bottom: -100%;
+}
+
+.path-image-container2 .rec1-image {
+  position: absolute;
+  top: 250px;
+  bottom: -20px; /* Position towards the bottom of the path image */
+  right: 90px; /* Position towards the right of the path image */
+  left: 90px;
+ 
+  width: 120px; /* Adjust the width */
+  height: auto; /* Maintain aspect ratio */
+  border: 2px solid #fff; /* Optional: border around the rectangle image */
+}
+
+
+.text-section {
+  max-width: 450px;
+}
+
+.text-section h1 {
+  color: #0056b3;
+  font-size: 36px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.text-section p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.read-more {
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.read-more:hover {
+  background-color: #e68a00;
+}
+
+.about-us {
+  position: relative;
+  width: 200px; /* Adjust width as needed */
+  height: 200px; /* Adjust height as needed */
+  margin-top: 50px;
+  margin-bottom: 5px;
+}
+
+.about-us h2 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+  color: #333333;
+  font-size: 24px;
+  padding-left: 10px;
+  border-left: 5px solid #2dcfcf;
+  margin: 0;
+  border-left: 5px solid #00a1a1;
+  padding-left: 10px;
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.about-us .about-us-image {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  display: block;
+  position: cover;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+body {
+  font-family: Arial, sans-serif;
+  font-style: oblique;
+  font-size: medium;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #e3e7e8;
+}
+h1{
+  color: rgb(13, 14, 17);
+}
+h2{
+  color:#112aa8
+
+}
+
+main {
+  display: block;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.destinations {
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.destination-item {
+  position: relative;
+  
+  
+  
+}
+.destination-item img {
+  flex: 1;
+  max-width: 500px;
+  height: 300px;
+  margin-right: 250px;
+  display: inline-block;
+  margin: 200px;
+  padding-left: 5px;
+  align-items: center;
+  transform: translateX(50px);
+  margin-right: 2px;
+  margin-left: 150px;
+  margin-top: -200px
+
+}
+.read1{
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  height: 50px;
+  align-items: center;
+}
+.read1:hover{
+  background-color: #ff9800;
+}
+/**/
+
+
+@media (max-width: 768px) {
+  .container {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .image-section {
+      margin-bottom: 30px;
+  }
+
+  .text-section {
+      max-width: 100%;
+  }
+
+  .center-image {
+      position: relative;
+      width: 100px;
+      left: 0;
+      transform: none;
+      margin-top: 20px;
+  }
+}
